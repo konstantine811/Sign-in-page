@@ -152,7 +152,6 @@ body {
 
 .sign-popup {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background: linear-gradient(116.52deg, rgba(255, 255, 255, 0.22) -0.3%, rgba(255, 255, 255, 0.2) 81.34%);
   padding: 29px 40px 30px 93px;
@@ -208,7 +207,17 @@ body {
 }
 
 .sign-popup__form {
-  margin-bottom: 157px;
+  margin-bottom: 15px;
+}
+
+.sign-popup__form-inner {
+  margin-top: 133px;
+}
+
+.sign-popup__form-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .h1 {

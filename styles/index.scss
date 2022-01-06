@@ -22,7 +22,6 @@ body {
 
 .sign-popup {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background: linear-gradient(
     116.52deg,
@@ -71,7 +70,15 @@ body {
     gap: 15px;
   }
   &__form {
-    margin-bottom: 157px;
+    margin-bottom: 15px;
+    &-inner {
+      margin-top: 133px;
+    }
+    &-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
 }
 
