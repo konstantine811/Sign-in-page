@@ -153,7 +153,11 @@ body {
 .sign-popup {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(116.52deg, rgba(255, 255, 255, 0.22) -0.3%, rgba(255, 255, 255, 0.2) 81.34%);
+  background: linear-gradient(
+    116.52deg,
+    rgba(255, 255, 255, 0.22) -0.3%,
+    rgba(255, 255, 255, 0.2) 81.34%
+  );
   padding: 29px 40px 30px 93px;
   border-radius: 20px;
   backdrop-filter: blur(20px);
@@ -249,7 +253,11 @@ body {
 }
 
 .input {
-  background: linear-gradient(92.01deg, rgba(255, 255, 255, 0.02) -8.99%, rgba(255, 255, 255, 0.14) 101.74%);
+  background: linear-gradient(
+    92.01deg,
+    rgba(255, 255, 255, 0.02) -8.99%,
+    rgba(255, 255, 255, 0.14) 101.74%
+  );
   backdrop-filter: blur(40px);
   border: 2px solid rgba(255, 255, 255, 0.78);
   border-radius: 5px;
@@ -262,7 +270,8 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.input:focus-visible, .input:focus {
+.input:focus-visible,
+.input:focus {
   outline: none;
 }
 
