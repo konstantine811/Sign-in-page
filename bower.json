@@ -1,0 +1,17 @@
+{
+  "name": "Sign_site",
+  "homepage": "https://github.com/konstantine811/Sign-in-page",
+  "authors": [
+    "konstantine811 <galystyan777@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
