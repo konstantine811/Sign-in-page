@@ -153,11 +153,7 @@ body {
 .sign-popup {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(
-    116.52deg,
-    rgba(255, 255, 255, 0.22) -0.3%,
-    rgba(255, 255, 255, 0.2) 81.34%
-  );
+  background: linear-gradient(116.52deg, rgba(255, 255, 255, 0.22) -0.3%, rgba(255, 255, 255, 0.2) 81.34%);
   padding: 29px 40px 30px 93px;
   border-radius: 20px;
   backdrop-filter: blur(20px);
@@ -253,11 +249,7 @@ body {
 }
 
 .input {
-  background: linear-gradient(
-    92.01deg,
-    rgba(255, 255, 255, 0.02) -8.99%,
-    rgba(255, 255, 255, 0.14) 101.74%
-  );
+  background: linear-gradient(92.01deg, rgba(255, 255, 255, 0.02) -8.99%, rgba(255, 255, 255, 0.14) 101.74%);
   backdrop-filter: blur(40px);
   border: 2px solid rgba(255, 255, 255, 0.78);
   border-radius: 5px;
@@ -270,8 +262,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.input:focus-visible,
-.input:focus {
+.input:focus-visible, .input:focus {
   outline: none;
 }
 
@@ -284,4 +275,53 @@ body {
   font-size: 13px;
   line-height: 19px;
   color: white;
+}
+
+.txt {
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+}
+
+.txt--white {
+  color: white;
+}
+
+.media-block {
+  padding: 40px;
+  background-color: #9e3535;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .media-block {
+    color: red;
+  }
+}
+
+@media (max-width: 1200px) {
+  .media-block {
+    padding: 200px;
+  }
+}
+
+@media (min-width: 568px) and (max-width: 700px) {
+  .media-block {
+    padding: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .media-block {
+    background-color: black;
+  }
+  .media-block-2 {
+    background-color: black;
+  }
+}
+
+@media (min-width: 1200px) {
+  .media-block {
+    background-color: #0b1574;
+  }
 }

@@ -1,0 +1,23 @@
+.sign-popup
+    .sign-popup__form-wrap
+      .sign-popup__form-inner
+        h1.h1.sign-popup__h1 Sign in
+        form.sign-popup__form(action='')
+          .sign-popup__input
+            label.label.sign-popup__label(for='email') Email id
+            .sign-popup__input-icon
+              input#email.input(type='text' required='' placeholder='Enter your email address')
+              i.fas.fa-envelope.sign-popup__icon
+          .sign-popup__input
+            label.label.sign-popup__label(for='passwords') Password
+            .sign-popup__input-icon
+              input#passwords.input(type='text' required='' placeholder='Enter your passwords')
+              i.fas.fa-key.sign-popup__icon
+          .sign-popup__forgot
+            a.link.sign-popup__link(href='') Forgotten Password
+          input.btn(type='submit' value='Login Now')
+      .sign-popup__create
+        h4.h4 Don&rsquo;t have account yet?
+        button.btn Create Account
+    .sign-popup__image
+      img(src='./assets/images/gallery.png' alt='')

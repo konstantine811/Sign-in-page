@@ -1,0 +1,8 @@
+extends ./pug/layout.pug
+block vars 
+  - var description = 'Hello world'
+  - var title = 'Index title'
+block content
+  .media-block Hello world
+  //- .main-wrap
+    include ./pug/partials/index-page/sigin-section.pug
